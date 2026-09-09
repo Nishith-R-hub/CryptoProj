@@ -879,8 +879,7 @@ def inspect_store():
             start=1
         ):
 
-            expired =
-                now > data["expires_at"]
+            expired = now > data["expires_at"]
 
             ttl = max(
                 0,
@@ -937,8 +936,7 @@ def inspect_store():
             start=1
         ):
 
-            expired =
-                now > data["expires_at"]
+            expired = now > data["expires_at"]
 
             ttl = max(
                 0,
